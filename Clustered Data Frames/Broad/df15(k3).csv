@@ -1,0 +1,51 @@
+,College,Tuition,Coordinates,Cluster Labels,Category 1,Category 2,Category 3,Category 4,Category 5
+0,Harvard University,16205,"(42.36782045, -71.1266665287448)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Nightlife
+1,Massachusetts Institute of Technology,21576,"(42.3583961, -71.0956778766393)",2,Food,Shops,Nightlife,Parks & Outdoors,Arts & Entertainment
+2,Yale University,18319,"(41.25713055, -72.9896696015223)",2,Food,Shops,Building,Parks & Outdoors,Travel
+3,Columbia University,22973,"(40.8071772, -73.9625279772072)",2,Food,Shops,Parks & Outdoors,Nightlife,Arts & Entertainment
+4,California Institute of Technology,26839,"(34.13710185, -118.125274866116)",2,Food,Shops,Arts & Entertainment,Parks & Outdoors,Building
+5,Stanford University,16695,"(37.43131385, -122.169365354983)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Building
+6,Brown University ,25264,"(41.82687235, -71.4012277069681)",1,Food,Nightlife,Shops,Arts & Entertainment,Parks & Outdoors
+7,Duke University ,19950,"(36.0001557, -78.9442297219588)",0,Food,Shops,Parks & Outdoors,Education,Building
+8,Princeton University,17732,"(40.34829285, -74.66308325)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Building
+9,University of Pennsylvania,22944,"(39.9492344, -75.191989851901)",2,Food,Parks & Outdoors,Shops,Arts & Entertainment,Nightlife
+10,Cornell University,30014,"(42.4505507, -76.4783512955428)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Travel
+11,Dartmouth College,21177,"(43.7047927, -72.2925909)",2,Food,Shops,Arts & Entertainment,Travel,Nightlife
+12,Northwestern University,29326,"(42.0551164, -87.6758111348217)",2,Food,Shops,Parks & Outdoors,Building,Arts & Entertainment
+13,University of Chicago ,31068,"(41.78468745, -87.6007493265106)",2,Food,Shops,Arts & Entertainment,Parks & Outdoors,Nightlife
+14,Rice University ,22061,"(29.71679145, -95.4047811339379)",2,Food,Shops,Arts & Entertainment,Parks & Outdoors,Nightlife
+15,Carnegie Mellon University,35250,"(37.4102193, -122.059654865858)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Building
+16,University of Southern California,32932,"(34.0224149, -118.286344073446)",2,Food,Arts & Entertainment,Shops,Parks & Outdoors,Education
+17,Washington University in St Louis,28824,"(38.64724015, -90.3084017323959)",2,Food,Shops,Arts & Entertainment,Nightlife,Parks & Outdoors
+18,Vanderbilt University,23150,"(36.1442594, -86.8027428817193)",2,Food,Arts & Entertainment,Travel,Nightlife,Shops
+19,Emory University,24804,"(33.7915703, -84.3183726165067)",2,Food,Shops,Building,Parks & Outdoors,Arts & Entertainment
+20,Johns Hopkins University,27352,"(39.2964392, -76.592394032674)",2,Food,Shops,Nightlife,Arts & Entertainment,Building
+21,Amherst College,19055,"(42.37289, -72.518814)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Nightlife
+22,Williams College,18167,"(42.7130236, -73.2030082)",2,Food,Shops,Arts & Entertainment,Parks & Outdoors,Travel
+23,Pomona College,18140,"(34.0947694, -117.7146921)",2,Food,Shops,Parks & Outdoors,Nightlife,Travel
+24,"University of California, Los Angeles",14236,"(34.07088865, -118.446731966638)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Travel
+25,University of Notre Dame,26683,"(41.70456775, -86.2382202601727)",2,Food,Shops,Travel,Nightlife,Parks & Outdoors
+26,New York University,35147,"(40.72925325, -73.9962539360963)",2,Food,Shops,Arts & Entertainment,Building,Parks & Outdoors
+27,University of Michigan — Ann Arbor,16107,"(42.2942142, -83.710038935096)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Building
+28,Wellesley College,20013,"(42.29182055, -71.3033260683231)",2,Food,Shops,Parks & Outdoors,Building,Arts & Entertainment
+29,Georgetown University,26625,"(38.90893925, -77.0745796206083)",2,Food,Shops,Parks & Outdoors,Nightlife,Building
+30,Swarthmore College,19641,"(39.9035501, -75.354092055757)",2,Shops,Food,Parks & Outdoors,Building,Travel
+31,Tufts University,28076,"(42.40629165, -71.1197504981564)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Nightlife
+32,"University of California, Berkeley ",17160,"(37.87094645, -122.266398722925)",2,Food,Shops,Arts & Entertainment,Building,Nightlife
+33,Claremont McKenna College ,30527,"(34.1023497, -117.7067162)",0,Food,Shops,Nightlife,Parks & Outdoors,Building
+34,Carleton College,28587,"(44.47183535, -93.1414580590152)",2,Shops,Food,Nightlife,None,None
+35,Boston University,31539,"(42.35050035, -71.1025599049017)",2,Food,Shops,Parks & Outdoors,Arts & Entertainment,Nightlife
+36,Middlebury College ,21437,"(44.0090777, -73.1767946)",2,Shops,Food,Arts & Entertainment,Parks & Outdoors,Travel
+37,University of North Carolina at Chapel Hill ,10077,"(35.90503535, -79.0477532652511)",2,Food,Shops,Nightlife,Arts & Entertainment,Parks & Outdoors
+38,Case Western Reserve University ,33124,"(41.50138695, -81.6007021615902)",2,Food,Shops,Arts & Entertainment,Parks & Outdoors,Building
+39,Haverford College ,21144,"(40.0071506, -75.3069423257631)",2,Food,Shops,Building,Parks & Outdoors,Nightlife
+40,"University of California, Davis ",16039,"(38.52247515, -121.751392674913)",2,Parks & Outdoors,Food,Arts & Entertainment,Education,Nightlife
+41,Smith College ,24258,"(42.3148532, -72.6401382)",2,Food,Shops,Arts & Entertainment,Parks & Outdoors,Building
+42,Purdue University West Lafayette,11693,"(40.4275052, -86.9122769)",2,Food,Shops,Nightlife,Parks & Outdoors,Arts & Entertainment
+43,Bowdoin College,24888,"(43.9075035, -69.9617742423256)",2,Food,Shops,Nightlife,Arts & Entertainment,Travel
+44,"University of California, San Diego",14770,"(32.87935255, -117.231100493855)",2,Food,Shops,Parks & Outdoors,Building,Travel
+45,Wesleyan University,20490,"(41.5551478, -72.6569115610163)",2,Food,Shops,Nightlife,Building,Travel
+46,University of Miami,37424,"(25.7172788, -80.2786915764625)",2,Food,Shops,Arts & Entertainment,Building,Parks & Outdoors
+47,University of Illinois at Urbana-Champaign ,16683,"(40.101976, -88.2314378)",2,Food,Shops,Nightlife,Parks & Outdoors,Travel
+48,Lehigh University ,27478,"(40.6068028, -75.3782488)",2,Food,Shops,Arts & Entertainment,Nightlife,Parks & Outdoors
+49,Bryn Mawr College,31900,"(40.02813555, -75.3159205851816)",2,Food,Shops,Nightlife,Parks & Outdoors,Arts & Entertainment
