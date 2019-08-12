@@ -1,1 +1,2 @@
-# Clustering-US-Colleges
+# Clustering US Colleges
+Over 1 million students enroll in college each year. For many, tuition is the deciding factor, and for others, location and social life is the highest priority – choosing between colleges is always a struggle. Many online sources aggregate data pertaining to tuition, campus life, location, rating, etc. to help students make this decision, but the insight provided is often at a broad level. In this project, we will use Python to explore the top 50 U.S. colleges and cluster them based on specific venues nearby.
