@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b73271b7a5304951a27d886a04ff3b99 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b73271b7a5304951a27d886a04ff3b99" ></div>
+        
+</body>
+<script>    
+    
+            var map_b73271b7a5304951a27d886a04ff3b99 = L.map(
+                "map_b73271b7a5304951a27d886a04ff3b99",
+                {
+                    center: [40.0, -95.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ceca356d55574f698984836aee9269b7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+            var circle_marker_c706324c6fa2494e837a040625ff2fb7 = L.circleMarker(
+                [42.36782045, -71.1266665287448],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_a981de91345d4b06af52a2fb9a6fffff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_288a625e1b1c4d98b3c4cc8c0ba2ba4a = $(`<div id="html_288a625e1b1c4d98b3c4cc8c0ba2ba4a" style="width: 100.0%; height: 100.0%;">College: Harvard University, Tuition: $16205, Cluster: 0</div>`)[0];
+            popup_a981de91345d4b06af52a2fb9a6fffff.setContent(html_288a625e1b1c4d98b3c4cc8c0ba2ba4a);
+        
+
+        circle_marker_c706324c6fa2494e837a040625ff2fb7.bindPopup(popup_a981de91345d4b06af52a2fb9a6fffff)
+        ;
+
+        
+    
+    
+            var circle_marker_5850e507054a45d5aaad84c247b622b3 = L.circleMarker(
+                [42.3583961, -71.0956778766393],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_ee96f881912042c0aa4ecdd7a0b626ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a23742f8cda9413c92f0f2e505b50c01 = $(`<div id="html_a23742f8cda9413c92f0f2e505b50c01" style="width: 100.0%; height: 100.0%;">College: Massachusetts Institute of Technology, Tuition: $21576, Cluster: 0</div>`)[0];
+            popup_ee96f881912042c0aa4ecdd7a0b626ab.setContent(html_a23742f8cda9413c92f0f2e505b50c01);
+        
+
+        circle_marker_5850e507054a45d5aaad84c247b622b3.bindPopup(popup_ee96f881912042c0aa4ecdd7a0b626ab)
+        ;
+
+        
+    
+    
+            var circle_marker_ddd82fe085394e42a2516591f29d05dc = L.circleMarker(
+                [41.25713055, -72.9896696015223],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_073c393c777d42109505e2d3618a9b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb67d4463c1644f7ab8e5c5be910b368 = $(`<div id="html_cb67d4463c1644f7ab8e5c5be910b368" style="width: 100.0%; height: 100.0%;">College: Yale University, Tuition: $18319, Cluster: 0</div>`)[0];
+            popup_073c393c777d42109505e2d3618a9b7d.setContent(html_cb67d4463c1644f7ab8e5c5be910b368);
+        
+
+        circle_marker_ddd82fe085394e42a2516591f29d05dc.bindPopup(popup_073c393c777d42109505e2d3618a9b7d)
+        ;
+
+        
+    
+    
+            var circle_marker_4744dc409cf84abb80640b3f994fbfb5 = L.circleMarker(
+                [40.8071772, -73.9625279772072],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_dd56523aa5254d40a505a41a3d3b2806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9717978177624346aeab59610c591f2f = $(`<div id="html_9717978177624346aeab59610c591f2f" style="width: 100.0%; height: 100.0%;">College: Columbia University, Tuition: $22973, Cluster: 1</div>`)[0];
+            popup_dd56523aa5254d40a505a41a3d3b2806.setContent(html_9717978177624346aeab59610c591f2f);
+        
+
+        circle_marker_4744dc409cf84abb80640b3f994fbfb5.bindPopup(popup_dd56523aa5254d40a505a41a3d3b2806)
+        ;
+
+        
+    
+    
+            var circle_marker_5012a8b0855a4cb5bea06427fd3ea172 = L.circleMarker(
+                [34.13710185, -118.125274866116],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_4ecf2ec7635d4c75894caec58d1ef6cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8056fca9d4d74763b44f484d32c40b4d = $(`<div id="html_8056fca9d4d74763b44f484d32c40b4d" style="width: 100.0%; height: 100.0%;">College: California Institute of Technology, Tuition: $26839, Cluster: 0</div>`)[0];
+            popup_4ecf2ec7635d4c75894caec58d1ef6cb.setContent(html_8056fca9d4d74763b44f484d32c40b4d);
+        
+
+        circle_marker_5012a8b0855a4cb5bea06427fd3ea172.bindPopup(popup_4ecf2ec7635d4c75894caec58d1ef6cb)
+        ;
+
+        
+    
+    
+            var circle_marker_b6b26165e3e44fc09d582bb7902ea995 = L.circleMarker(
+                [37.43131385, -122.169365354983],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_8c20fb1164e24484916f435d1c56d9bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a00b2778ccd4fb68d367357d7c9bc67 = $(`<div id="html_4a00b2778ccd4fb68d367357d7c9bc67" style="width: 100.0%; height: 100.0%;">College: Stanford University, Tuition: $16695, Cluster: 0</div>`)[0];
+            popup_8c20fb1164e24484916f435d1c56d9bc.setContent(html_4a00b2778ccd4fb68d367357d7c9bc67);
+        
+
+        circle_marker_b6b26165e3e44fc09d582bb7902ea995.bindPopup(popup_8c20fb1164e24484916f435d1c56d9bc)
+        ;
+
+        
+    
+    
+            var circle_marker_2ebb74242ca047be9861313e342a3c06 = L.circleMarker(
+                [41.82687235, -71.4012277069681],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_e0364655e8ba41158e25f867eb1123ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17cb6e65ddf04461918f77d631de3712 = $(`<div id="html_17cb6e65ddf04461918f77d631de3712" style="width: 100.0%; height: 100.0%;">College: Brown University , Tuition: $25264, Cluster: 3</div>`)[0];
+            popup_e0364655e8ba41158e25f867eb1123ad.setContent(html_17cb6e65ddf04461918f77d631de3712);
+        
+
+        circle_marker_2ebb74242ca047be9861313e342a3c06.bindPopup(popup_e0364655e8ba41158e25f867eb1123ad)
+        ;
+
+        
+    
+    
+            var circle_marker_255d5ede17be439296837f17c257618e = L.circleMarker(
+                [36.0001557, -78.9442297219588],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_a252041d7dfe41e1bb379b1bd54f3806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e02b99c6c65e4e72aed46fb7e03458e9 = $(`<div id="html_e02b99c6c65e4e72aed46fb7e03458e9" style="width: 100.0%; height: 100.0%;">College: Duke University , Tuition: $19950, Cluster: 1</div>`)[0];
+            popup_a252041d7dfe41e1bb379b1bd54f3806.setContent(html_e02b99c6c65e4e72aed46fb7e03458e9);
+        
+
+        circle_marker_255d5ede17be439296837f17c257618e.bindPopup(popup_a252041d7dfe41e1bb379b1bd54f3806)
+        ;
+
+        
+    
+    
+            var circle_marker_449e92f2ed154ecab5debed17fc9402d = L.circleMarker(
+                [40.34829285, -74.66308325],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_89e0456eeec7474591a6c6dc64c25295 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e7b39de1adc400ca58b839d99352321 = $(`<div id="html_9e7b39de1adc400ca58b839d99352321" style="width: 100.0%; height: 100.0%;">College: Princeton University, Tuition: $17732, Cluster: 1</div>`)[0];
+            popup_89e0456eeec7474591a6c6dc64c25295.setContent(html_9e7b39de1adc400ca58b839d99352321);
+        
+
+        circle_marker_449e92f2ed154ecab5debed17fc9402d.bindPopup(popup_89e0456eeec7474591a6c6dc64c25295)
+        ;
+
+        
+    
+    
+            var circle_marker_c61f77158caf448fa7fbffe6b8acf243 = L.circleMarker(
+                [39.9492344, -75.191989851901],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_f45dd0a015df4ed38ff1d710d4a58785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf34d8bdbc0c4f88b22c0d0527e2732e = $(`<div id="html_cf34d8bdbc0c4f88b22c0d0527e2732e" style="width: 100.0%; height: 100.0%;">College: University of Pennsylvania, Tuition: $22944, Cluster: 0</div>`)[0];
+            popup_f45dd0a015df4ed38ff1d710d4a58785.setContent(html_cf34d8bdbc0c4f88b22c0d0527e2732e);
+        
+
+        circle_marker_c61f77158caf448fa7fbffe6b8acf243.bindPopup(popup_f45dd0a015df4ed38ff1d710d4a58785)
+        ;
+
+        
+    
+    
+            var circle_marker_9d0772e531f84ecf8ee1e22eb104051d = L.circleMarker(
+                [42.4505507, -76.4783512955428],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_17f799b1080f403898621ae11b459527 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b01b82f560154170afc7b9d443cec6e7 = $(`<div id="html_b01b82f560154170afc7b9d443cec6e7" style="width: 100.0%; height: 100.0%;">College: Cornell University, Tuition: $30014, Cluster: 0</div>`)[0];
+            popup_17f799b1080f403898621ae11b459527.setContent(html_b01b82f560154170afc7b9d443cec6e7);
+        
+
+        circle_marker_9d0772e531f84ecf8ee1e22eb104051d.bindPopup(popup_17f799b1080f403898621ae11b459527)
+        ;
+
+        
+    
+    
+            var circle_marker_12a5f40c1d2e45b187d39e12fbaf7fd7 = L.circleMarker(
+                [43.7047927, -72.2925909],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_d7792da2aa0e4fa98372ef8e0f677660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6e946f28b594417adcc2f4a9b8aea7e = $(`<div id="html_c6e946f28b594417adcc2f4a9b8aea7e" style="width: 100.0%; height: 100.0%;">College: Dartmouth College, Tuition: $21177, Cluster: 1</div>`)[0];
+            popup_d7792da2aa0e4fa98372ef8e0f677660.setContent(html_c6e946f28b594417adcc2f4a9b8aea7e);
+        
+
+        circle_marker_12a5f40c1d2e45b187d39e12fbaf7fd7.bindPopup(popup_d7792da2aa0e4fa98372ef8e0f677660)
+        ;
+
+        
+    
+    
+            var circle_marker_9f2ebbd371054e429a188eae31fd72d5 = L.circleMarker(
+                [42.0551164, -87.6758111348217],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_cd0c0923b0f54160ae1cef16676a1389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a6665ab61ab4724adac23053efc3db2 = $(`<div id="html_3a6665ab61ab4724adac23053efc3db2" style="width: 100.0%; height: 100.0%;">College: Northwestern University, Tuition: $29326, Cluster: 0</div>`)[0];
+            popup_cd0c0923b0f54160ae1cef16676a1389.setContent(html_3a6665ab61ab4724adac23053efc3db2);
+        
+
+        circle_marker_9f2ebbd371054e429a188eae31fd72d5.bindPopup(popup_cd0c0923b0f54160ae1cef16676a1389)
+        ;
+
+        
+    
+    
+            var circle_marker_2f5addabe2d544f7b7e88211e9408907 = L.circleMarker(
+                [41.78468745, -87.6007493265106],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_17c1bd9496eb4fdaaf1e469704f3cb6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad37b8277be445b0ab38c51bf22ed19e = $(`<div id="html_ad37b8277be445b0ab38c51bf22ed19e" style="width: 100.0%; height: 100.0%;">College: University of Chicago , Tuition: $31068, Cluster: 0</div>`)[0];
+            popup_17c1bd9496eb4fdaaf1e469704f3cb6f.setContent(html_ad37b8277be445b0ab38c51bf22ed19e);
+        
+
+        circle_marker_2f5addabe2d544f7b7e88211e9408907.bindPopup(popup_17c1bd9496eb4fdaaf1e469704f3cb6f)
+        ;
+
+        
+    
+    
+            var circle_marker_7c41cf40812146568cc7fd9675d57253 = L.circleMarker(
+                [29.71679145, -95.4047811339379],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_21ec9d687bbd4036ad30a6ad94b0c2aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_134bc88f43d44b01b711d04d2b99e298 = $(`<div id="html_134bc88f43d44b01b711d04d2b99e298" style="width: 100.0%; height: 100.0%;">College: Rice University , Tuition: $22061, Cluster: 1</div>`)[0];
+            popup_21ec9d687bbd4036ad30a6ad94b0c2aa.setContent(html_134bc88f43d44b01b711d04d2b99e298);
+        
+
+        circle_marker_7c41cf40812146568cc7fd9675d57253.bindPopup(popup_21ec9d687bbd4036ad30a6ad94b0c2aa)
+        ;
+
+        
+    
+    
+            var circle_marker_9c9c3cecc5fe43479fe6988a10e6d4ba = L.circleMarker(
+                [37.4102193, -122.059654865858],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_3f915e34753747bdbf9500e0cd92019d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b27521e06a024b56a005d8239ee43b4e = $(`<div id="html_b27521e06a024b56a005d8239ee43b4e" style="width: 100.0%; height: 100.0%;">College: Carnegie Mellon University, Tuition: $35250, Cluster: 0</div>`)[0];
+            popup_3f915e34753747bdbf9500e0cd92019d.setContent(html_b27521e06a024b56a005d8239ee43b4e);
+        
+
+        circle_marker_9c9c3cecc5fe43479fe6988a10e6d4ba.bindPopup(popup_3f915e34753747bdbf9500e0cd92019d)
+        ;
+
+        
+    
+    
+            var circle_marker_1694bfc9ead248a08033e3c8293a68a2 = L.circleMarker(
+                [34.0224149, -118.286344073446],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_00eacc197ca54e8096758d98e1a8c191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb23019ac9ec4e31a9fe331c6ca21d9c = $(`<div id="html_fb23019ac9ec4e31a9fe331c6ca21d9c" style="width: 100.0%; height: 100.0%;">College: University of Southern California, Tuition: $32932, Cluster: 0</div>`)[0];
+            popup_00eacc197ca54e8096758d98e1a8c191.setContent(html_fb23019ac9ec4e31a9fe331c6ca21d9c);
+        
+
+        circle_marker_1694bfc9ead248a08033e3c8293a68a2.bindPopup(popup_00eacc197ca54e8096758d98e1a8c191)
+        ;
+
+        
+    
+    
+            var circle_marker_95a22b6cb8ba44edb31ac03e255daf2f = L.circleMarker(
+                [38.64724015, -90.3084017323959],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_84a17d98f525494b8943ef4fcfadb2aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14add28d486f42e596939de1e8c457ac = $(`<div id="html_14add28d486f42e596939de1e8c457ac" style="width: 100.0%; height: 100.0%;">College: Washington University in St Louis, Tuition: $28824, Cluster: 0</div>`)[0];
+            popup_84a17d98f525494b8943ef4fcfadb2aa.setContent(html_14add28d486f42e596939de1e8c457ac);
+        
+
+        circle_marker_95a22b6cb8ba44edb31ac03e255daf2f.bindPopup(popup_84a17d98f525494b8943ef4fcfadb2aa)
+        ;
+
+        
+    
+    
+            var circle_marker_249ca3a5a7ad453c971e325aaf665474 = L.circleMarker(
+                [36.1442594, -86.8027428817193],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_0707ee0de4ec4abfa9289bbcefec6fae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57108d6416a8406d91d34ae030fdddda = $(`<div id="html_57108d6416a8406d91d34ae030fdddda" style="width: 100.0%; height: 100.0%;">College: Vanderbilt University, Tuition: $23150, Cluster: 0</div>`)[0];
+            popup_0707ee0de4ec4abfa9289bbcefec6fae.setContent(html_57108d6416a8406d91d34ae030fdddda);
+        
+
+        circle_marker_249ca3a5a7ad453c971e325aaf665474.bindPopup(popup_0707ee0de4ec4abfa9289bbcefec6fae)
+        ;
+
+        
+    
+    
+            var circle_marker_17db5d1afd82403a80a9c35c77f6e4cf = L.circleMarker(
+                [33.7915703, -84.3183726165067],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_d704952488ff4b32a890cc9676cfc1d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a92bf309bab4959947a71a24674bce6 = $(`<div id="html_2a92bf309bab4959947a71a24674bce6" style="width: 100.0%; height: 100.0%;">College: Emory University, Tuition: $24804, Cluster: 0</div>`)[0];
+            popup_d704952488ff4b32a890cc9676cfc1d7.setContent(html_2a92bf309bab4959947a71a24674bce6);
+        
+
+        circle_marker_17db5d1afd82403a80a9c35c77f6e4cf.bindPopup(popup_d704952488ff4b32a890cc9676cfc1d7)
+        ;
+
+        
+    
+    
+            var circle_marker_004455ddfa064945bedc4aaef9265af3 = L.circleMarker(
+                [39.2964392, -76.592394032674],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_02912629c6a6467ab2ba406f606ba638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_478ded1fa05645a0a08fc012772cfcb0 = $(`<div id="html_478ded1fa05645a0a08fc012772cfcb0" style="width: 100.0%; height: 100.0%;">College: Johns Hopkins University, Tuition: $27352, Cluster: 0</div>`)[0];
+            popup_02912629c6a6467ab2ba406f606ba638.setContent(html_478ded1fa05645a0a08fc012772cfcb0);
+        
+
+        circle_marker_004455ddfa064945bedc4aaef9265af3.bindPopup(popup_02912629c6a6467ab2ba406f606ba638)
+        ;
+
+        
+    
+    
+            var circle_marker_a17c0128015149a6bce6094c5a52541f = L.circleMarker(
+                [42.37289, -72.518814],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_9b3311b4f71542c180ce19fd1c5fb49d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8def448965d34d2d989d16ae01eff7da = $(`<div id="html_8def448965d34d2d989d16ae01eff7da" style="width: 100.0%; height: 100.0%;">College: Amherst College, Tuition: $19055, Cluster: 0</div>`)[0];
+            popup_9b3311b4f71542c180ce19fd1c5fb49d.setContent(html_8def448965d34d2d989d16ae01eff7da);
+        
+
+        circle_marker_a17c0128015149a6bce6094c5a52541f.bindPopup(popup_9b3311b4f71542c180ce19fd1c5fb49d)
+        ;
+
+        
+    
+    
+            var circle_marker_80cde5fbcace43a98fd62f17d39bd8aa = L.circleMarker(
+                [42.7130236, -73.2030082],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_3609787da7af41e28b3f75563c201d54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46880242aaa74c5a8d1a6ff24cb82342 = $(`<div id="html_46880242aaa74c5a8d1a6ff24cb82342" style="width: 100.0%; height: 100.0%;">College: Williams College, Tuition: $18167, Cluster: 0</div>`)[0];
+            popup_3609787da7af41e28b3f75563c201d54.setContent(html_46880242aaa74c5a8d1a6ff24cb82342);
+        
+
+        circle_marker_80cde5fbcace43a98fd62f17d39bd8aa.bindPopup(popup_3609787da7af41e28b3f75563c201d54)
+        ;
+
+        
+    
+    
+            var circle_marker_56b61b0c61f14880a5d6cdd8737c53ae = L.circleMarker(
+                [34.0947694, -117.7146921],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_5396b109027e48f6b2e607cf203e82f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c882cdfd6dc84f7eb6c16e7e66ab1f80 = $(`<div id="html_c882cdfd6dc84f7eb6c16e7e66ab1f80" style="width: 100.0%; height: 100.0%;">College: Pomona College, Tuition: $18140, Cluster: 1</div>`)[0];
+            popup_5396b109027e48f6b2e607cf203e82f2.setContent(html_c882cdfd6dc84f7eb6c16e7e66ab1f80);
+        
+
+        circle_marker_56b61b0c61f14880a5d6cdd8737c53ae.bindPopup(popup_5396b109027e48f6b2e607cf203e82f2)
+        ;
+
+        
+    
+    
+            var circle_marker_07f9eb581abd4d239f70bba4c245c427 = L.circleMarker(
+                [34.07088865, -118.446731966638],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_1eee0ce86e5d44aea2127db257b5459e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bafbfe0ec6b4921a0f738b2657b70a0 = $(`<div id="html_5bafbfe0ec6b4921a0f738b2657b70a0" style="width: 100.0%; height: 100.0%;">College: University of California, Los Angeles, Tuition: $14236, Cluster: 0</div>`)[0];
+            popup_1eee0ce86e5d44aea2127db257b5459e.setContent(html_5bafbfe0ec6b4921a0f738b2657b70a0);
+        
+
+        circle_marker_07f9eb581abd4d239f70bba4c245c427.bindPopup(popup_1eee0ce86e5d44aea2127db257b5459e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf6b279389c647f4a57bad94659e1c97 = L.circleMarker(
+                [41.70456775, -86.2382202601727],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_4edf124ed561497c904ae79c9fac6bae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c333d8f238544ec191f4900b19ea62b0 = $(`<div id="html_c333d8f238544ec191f4900b19ea62b0" style="width: 100.0%; height: 100.0%;">College: University of Notre Dame, Tuition: $26683, Cluster: 1</div>`)[0];
+            popup_4edf124ed561497c904ae79c9fac6bae.setContent(html_c333d8f238544ec191f4900b19ea62b0);
+        
+
+        circle_marker_cf6b279389c647f4a57bad94659e1c97.bindPopup(popup_4edf124ed561497c904ae79c9fac6bae)
+        ;
+
+        
+    
+    
+            var circle_marker_7bd0e0636e4e4cce96183647b039fabc = L.circleMarker(
+                [40.72925325, -73.9962539360963],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_b892266b21c04dd6aed245a3b0657a76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52cc0e3316041ff80eda59161420146 = $(`<div id="html_e52cc0e3316041ff80eda59161420146" style="width: 100.0%; height: 100.0%;">College: New York University, Tuition: $35147, Cluster: 1</div>`)[0];
+            popup_b892266b21c04dd6aed245a3b0657a76.setContent(html_e52cc0e3316041ff80eda59161420146);
+        
+
+        circle_marker_7bd0e0636e4e4cce96183647b039fabc.bindPopup(popup_b892266b21c04dd6aed245a3b0657a76)
+        ;
+
+        
+    
+    
+            var circle_marker_dca585c31938492f9d1ab78d1c6990e2 = L.circleMarker(
+                [42.2942142, -83.710038935096],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_0193cc917be54acda26e9e1f2058a214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_896dda3ccba1483fb9c0a9a7c51bfdc2 = $(`<div id="html_896dda3ccba1483fb9c0a9a7c51bfdc2" style="width: 100.0%; height: 100.0%;">College: University of Michigan — Ann Arbor, Tuition: $16107, Cluster: 0</div>`)[0];
+            popup_0193cc917be54acda26e9e1f2058a214.setContent(html_896dda3ccba1483fb9c0a9a7c51bfdc2);
+        
+
+        circle_marker_dca585c31938492f9d1ab78d1c6990e2.bindPopup(popup_0193cc917be54acda26e9e1f2058a214)
+        ;
+
+        
+    
+    
+            var circle_marker_df9c3299fc4446458df2968becc90679 = L.circleMarker(
+                [42.29182055, -71.3033260683231],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_f32f1faf55474927a83b068cf28c6c74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70ad69d8b81e49f19e64352049a6ac14 = $(`<div id="html_70ad69d8b81e49f19e64352049a6ac14" style="width: 100.0%; height: 100.0%;">College: Wellesley College, Tuition: $20013, Cluster: 0</div>`)[0];
+            popup_f32f1faf55474927a83b068cf28c6c74.setContent(html_70ad69d8b81e49f19e64352049a6ac14);
+        
+
+        circle_marker_df9c3299fc4446458df2968becc90679.bindPopup(popup_f32f1faf55474927a83b068cf28c6c74)
+        ;
+
+        
+    
+    
+            var circle_marker_1753bd0b62f34a40ad4ab797c6d6c24d = L.circleMarker(
+                [38.90893925, -77.0745796206083],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_a66842fd2fde434488152d556a601d2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c64ff5da2322482681de05df93e63fca = $(`<div id="html_c64ff5da2322482681de05df93e63fca" style="width: 100.0%; height: 100.0%;">College: Georgetown University, Tuition: $26625, Cluster: 0</div>`)[0];
+            popup_a66842fd2fde434488152d556a601d2e.setContent(html_c64ff5da2322482681de05df93e63fca);
+        
+
+        circle_marker_1753bd0b62f34a40ad4ab797c6d6c24d.bindPopup(popup_a66842fd2fde434488152d556a601d2e)
+        ;
+
+        
+    
+    
+            var circle_marker_309e0d4d640e42b39238a2eece5d2f49 = L.circleMarker(
+                [39.9035501, -75.354092055757],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_1619fabc0e9a4373bc1ec4d747cbe4c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e0255c641d2458187efb0f90e8369f2 = $(`<div id="html_8e0255c641d2458187efb0f90e8369f2" style="width: 100.0%; height: 100.0%;">College: Swarthmore College, Tuition: $19641, Cluster: 1</div>`)[0];
+            popup_1619fabc0e9a4373bc1ec4d747cbe4c9.setContent(html_8e0255c641d2458187efb0f90e8369f2);
+        
+
+        circle_marker_309e0d4d640e42b39238a2eece5d2f49.bindPopup(popup_1619fabc0e9a4373bc1ec4d747cbe4c9)
+        ;
+
+        
+    
+    
+            var circle_marker_69323f56727944ccbb91249273aa6f26 = L.circleMarker(
+                [42.40629165, -71.1197504981564],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_cc8913d9290c46178997829ca4b51daa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9ff20b4db94527a29f12e7e3214aa5 = $(`<div id="html_9f9ff20b4db94527a29f12e7e3214aa5" style="width: 100.0%; height: 100.0%;">College: Tufts University, Tuition: $28076, Cluster: 0</div>`)[0];
+            popup_cc8913d9290c46178997829ca4b51daa.setContent(html_9f9ff20b4db94527a29f12e7e3214aa5);
+        
+
+        circle_marker_69323f56727944ccbb91249273aa6f26.bindPopup(popup_cc8913d9290c46178997829ca4b51daa)
+        ;
+
+        
+    
+    
+            var circle_marker_4dde2f5791e441be8b41a480f61634df = L.circleMarker(
+                [37.87094645, -122.266398722925],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_ad26f1fd2ed8479f899a6ec919d65db2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b91ddf5d7d60439b9cad899179e3b171 = $(`<div id="html_b91ddf5d7d60439b9cad899179e3b171" style="width: 100.0%; height: 100.0%;">College: University of California, Berkeley , Tuition: $17160, Cluster: 0</div>`)[0];
+            popup_ad26f1fd2ed8479f899a6ec919d65db2.setContent(html_b91ddf5d7d60439b9cad899179e3b171);
+        
+
+        circle_marker_4dde2f5791e441be8b41a480f61634df.bindPopup(popup_ad26f1fd2ed8479f899a6ec919d65db2)
+        ;
+
+        
+    
+    
+            var circle_marker_289449ed2b4d4b8d987a488b106ca4b8 = L.circleMarker(
+                [34.1023497, -117.7067162],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_38064401ce354f9ca88d77505e6cb559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e57c2ea474e44f4aca30c035e3f4031 = $(`<div id="html_4e57c2ea474e44f4aca30c035e3f4031" style="width: 100.0%; height: 100.0%;">College: Claremont McKenna College , Tuition: $30527, Cluster: 2</div>`)[0];
+            popup_38064401ce354f9ca88d77505e6cb559.setContent(html_4e57c2ea474e44f4aca30c035e3f4031);
+        
+
+        circle_marker_289449ed2b4d4b8d987a488b106ca4b8.bindPopup(popup_38064401ce354f9ca88d77505e6cb559)
+        ;
+
+        
+    
+    
+            var circle_marker_00d95bca446b4c9fb02f8568b134aa52 = L.circleMarker(
+                [44.47183535, -93.1414580590152],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_99ac984142b14cdea077bd7b9a13d050 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba00eb56cf347eca554bb07420b0a0d = $(`<div id="html_3ba00eb56cf347eca554bb07420b0a0d" style="width: 100.0%; height: 100.0%;">College: Carleton College, Tuition: $28587, Cluster: 1</div>`)[0];
+            popup_99ac984142b14cdea077bd7b9a13d050.setContent(html_3ba00eb56cf347eca554bb07420b0a0d);
+        
+
+        circle_marker_00d95bca446b4c9fb02f8568b134aa52.bindPopup(popup_99ac984142b14cdea077bd7b9a13d050)
+        ;
+
+        
+    
+    
+            var circle_marker_635ab7957e9f410483dc0436fc8cd4e6 = L.circleMarker(
+                [42.35050035, -71.1025599049017],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_8e603af5e00948bcb64c6a0c65dcb298 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ae2eab76f974e85bb84e124e4ac6cac = $(`<div id="html_9ae2eab76f974e85bb84e124e4ac6cac" style="width: 100.0%; height: 100.0%;">College: Boston University, Tuition: $31539, Cluster: 1</div>`)[0];
+            popup_8e603af5e00948bcb64c6a0c65dcb298.setContent(html_9ae2eab76f974e85bb84e124e4ac6cac);
+        
+
+        circle_marker_635ab7957e9f410483dc0436fc8cd4e6.bindPopup(popup_8e603af5e00948bcb64c6a0c65dcb298)
+        ;
+
+        
+    
+    
+            var circle_marker_ada82d97a35f4920b4569fe9a0872d7d = L.circleMarker(
+                [44.0090777, -73.1767946],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_da4e4ad201e748d5a3e3bc9b9c990acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea85789406b94b569b9e57d20df01aec = $(`<div id="html_ea85789406b94b569b9e57d20df01aec" style="width: 100.0%; height: 100.0%;">College: Middlebury College , Tuition: $21437, Cluster: 1</div>`)[0];
+            popup_da4e4ad201e748d5a3e3bc9b9c990acc.setContent(html_ea85789406b94b569b9e57d20df01aec);
+        
+
+        circle_marker_ada82d97a35f4920b4569fe9a0872d7d.bindPopup(popup_da4e4ad201e748d5a3e3bc9b9c990acc)
+        ;
+
+        
+    
+    
+            var circle_marker_92bfdb330be049adbaa924986a9b09e7 = L.circleMarker(
+                [35.90503535, -79.0477532652511],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_a609835c3f8e415ea67a028dbdabfc32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d794db764d346aaae7ee5adafc7f0b4 = $(`<div id="html_8d794db764d346aaae7ee5adafc7f0b4" style="width: 100.0%; height: 100.0%;">College: University of North Carolina at Chapel Hill , Tuition: $10077, Cluster: 1</div>`)[0];
+            popup_a609835c3f8e415ea67a028dbdabfc32.setContent(html_8d794db764d346aaae7ee5adafc7f0b4);
+        
+
+        circle_marker_92bfdb330be049adbaa924986a9b09e7.bindPopup(popup_a609835c3f8e415ea67a028dbdabfc32)
+        ;
+
+        
+    
+    
+            var circle_marker_34a64dd4a31b480cbbd0d7091c79b779 = L.circleMarker(
+                [41.50138695, -81.6007021615902],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_6cb15915d98a455fa6eb6977b28ed762 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c8f32555dc44e3db91d5f89960b9e46 = $(`<div id="html_4c8f32555dc44e3db91d5f89960b9e46" style="width: 100.0%; height: 100.0%;">College: Case Western Reserve University , Tuition: $33124, Cluster: 0</div>`)[0];
+            popup_6cb15915d98a455fa6eb6977b28ed762.setContent(html_4c8f32555dc44e3db91d5f89960b9e46);
+        
+
+        circle_marker_34a64dd4a31b480cbbd0d7091c79b779.bindPopup(popup_6cb15915d98a455fa6eb6977b28ed762)
+        ;
+
+        
+    
+    
+            var circle_marker_7c9982c0cbf24db387b8519081847e2f = L.circleMarker(
+                [40.0071506, -75.3069423257631],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_01af02645ab64bd18a1f0b2a1c82aeb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f978387bcff844409c9b6400f3305a84 = $(`<div id="html_f978387bcff844409c9b6400f3305a84" style="width: 100.0%; height: 100.0%;">College: Haverford College , Tuition: $21144, Cluster: 1</div>`)[0];
+            popup_01af02645ab64bd18a1f0b2a1c82aeb0.setContent(html_f978387bcff844409c9b6400f3305a84);
+        
+
+        circle_marker_7c9982c0cbf24db387b8519081847e2f.bindPopup(popup_01af02645ab64bd18a1f0b2a1c82aeb0)
+        ;
+
+        
+    
+    
+            var circle_marker_4d3746864cf44c80a3ed07443959db05 = L.circleMarker(
+                [38.52247515, -121.751392674913],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_3466a4418d4c4309849f47e52e7f10f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96c45b738be9435ba713a399d3f323ef = $(`<div id="html_96c45b738be9435ba713a399d3f323ef" style="width: 100.0%; height: 100.0%;">College: University of California, Davis , Tuition: $16039, Cluster: 0</div>`)[0];
+            popup_3466a4418d4c4309849f47e52e7f10f5.setContent(html_96c45b738be9435ba713a399d3f323ef);
+        
+
+        circle_marker_4d3746864cf44c80a3ed07443959db05.bindPopup(popup_3466a4418d4c4309849f47e52e7f10f5)
+        ;
+
+        
+    
+    
+            var circle_marker_28202f4a98164defab68268dfc400116 = L.circleMarker(
+                [42.3148532, -72.6401382],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_11cbba32d21b41609d1c0eac67b0dfad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35a771c47a9e4886a7fbbe8d7c618888 = $(`<div id="html_35a771c47a9e4886a7fbbe8d7c618888" style="width: 100.0%; height: 100.0%;">College: Smith College , Tuition: $24258, Cluster: 1</div>`)[0];
+            popup_11cbba32d21b41609d1c0eac67b0dfad.setContent(html_35a771c47a9e4886a7fbbe8d7c618888);
+        
+
+        circle_marker_28202f4a98164defab68268dfc400116.bindPopup(popup_11cbba32d21b41609d1c0eac67b0dfad)
+        ;
+
+        
+    
+    
+            var circle_marker_c419fa78393742f597a28669e6176886 = L.circleMarker(
+                [40.4275052, -86.9122769],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_1106403acb5244808100b6104c1682c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d77eadc25bf474e9f04eed5be35eb08 = $(`<div id="html_0d77eadc25bf474e9f04eed5be35eb08" style="width: 100.0%; height: 100.0%;">College: Purdue University West Lafayette, Tuition: $11693, Cluster: 0</div>`)[0];
+            popup_1106403acb5244808100b6104c1682c5.setContent(html_0d77eadc25bf474e9f04eed5be35eb08);
+        
+
+        circle_marker_c419fa78393742f597a28669e6176886.bindPopup(popup_1106403acb5244808100b6104c1682c5)
+        ;
+
+        
+    
+    
+            var circle_marker_62f6b5ed0d2e4f07951046afaaae1aa2 = L.circleMarker(
+                [43.9075035, -69.9617742423256],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_3fa1a8ed0c994484b6a8aee5f9c8eaa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f7fb40a95d24aa0b4e7b9f31144e7f6 = $(`<div id="html_7f7fb40a95d24aa0b4e7b9f31144e7f6" style="width: 100.0%; height: 100.0%;">College: Bowdoin College, Tuition: $24888, Cluster: 1</div>`)[0];
+            popup_3fa1a8ed0c994484b6a8aee5f9c8eaa1.setContent(html_7f7fb40a95d24aa0b4e7b9f31144e7f6);
+        
+
+        circle_marker_62f6b5ed0d2e4f07951046afaaae1aa2.bindPopup(popup_3fa1a8ed0c994484b6a8aee5f9c8eaa1)
+        ;
+
+        
+    
+    
+            var circle_marker_fde6d97f62944351a76dbf4c25672135 = L.circleMarker(
+                [32.87935255, -117.231100493855],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_593c442190904b7a9a6695e7179996ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c68607df0043b0b92e030e472ae305 = $(`<div id="html_77c68607df0043b0b92e030e472ae305" style="width: 100.0%; height: 100.0%;">College: University of California, San Diego, Tuition: $14770, Cluster: 1</div>`)[0];
+            popup_593c442190904b7a9a6695e7179996ab.setContent(html_77c68607df0043b0b92e030e472ae305);
+        
+
+        circle_marker_fde6d97f62944351a76dbf4c25672135.bindPopup(popup_593c442190904b7a9a6695e7179996ab)
+        ;
+
+        
+    
+    
+            var circle_marker_5fff5aba0d674daa8e2d7bbe7a20932b = L.circleMarker(
+                [41.5551478, -72.6569115610163],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_91c215c9c97941fc83460b97fca4e5a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_685f33cb45b644d18f3b107d848e1c75 = $(`<div id="html_685f33cb45b644d18f3b107d848e1c75" style="width: 100.0%; height: 100.0%;">College: Wesleyan University, Tuition: $20490, Cluster: 0</div>`)[0];
+            popup_91c215c9c97941fc83460b97fca4e5a2.setContent(html_685f33cb45b644d18f3b107d848e1c75);
+        
+
+        circle_marker_5fff5aba0d674daa8e2d7bbe7a20932b.bindPopup(popup_91c215c9c97941fc83460b97fca4e5a2)
+        ;
+
+        
+    
+    
+            var circle_marker_52fc897f0a22452bad867409e29576b6 = L.circleMarker(
+                [25.7172788, -80.2786915764625],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_9f45582fb9dd43b39bffc2383d3a1395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4df87cff92124d8c83ba175035f99c1e = $(`<div id="html_4df87cff92124d8c83ba175035f99c1e" style="width: 100.0%; height: 100.0%;">College: University of Miami, Tuition: $37424, Cluster: 1</div>`)[0];
+            popup_9f45582fb9dd43b39bffc2383d3a1395.setContent(html_4df87cff92124d8c83ba175035f99c1e);
+        
+
+        circle_marker_52fc897f0a22452bad867409e29576b6.bindPopup(popup_9f45582fb9dd43b39bffc2383d3a1395)
+        ;
+
+        
+    
+    
+            var circle_marker_0bb12b55e7e74cb49f8a7ecfea84fb27 = L.circleMarker(
+                [40.101976, -88.2314378],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_4bc413b317654070bf241e8107e27ddc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e75e9b6dd1b41eb93c02086404e27d5 = $(`<div id="html_8e75e9b6dd1b41eb93c02086404e27d5" style="width: 100.0%; height: 100.0%;">College: University of Illinois at Urbana-Champaign , Tuition: $16683, Cluster: 0</div>`)[0];
+            popup_4bc413b317654070bf241e8107e27ddc.setContent(html_8e75e9b6dd1b41eb93c02086404e27d5);
+        
+
+        circle_marker_0bb12b55e7e74cb49f8a7ecfea84fb27.bindPopup(popup_4bc413b317654070bf241e8107e27ddc)
+        ;
+
+        
+    
+    
+            var circle_marker_1558e051ec0d43dba8b716b8dcc62a10 = L.circleMarker(
+                [40.6068028, -75.3782488],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_8fdd19f047744d52a16dadb888c68a72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91fd71f72bf84cde99af7c39d87e5aef = $(`<div id="html_91fd71f72bf84cde99af7c39d87e5aef" style="width: 100.0%; height: 100.0%;">College: Lehigh University , Tuition: $27478, Cluster: 0</div>`)[0];
+            popup_8fdd19f047744d52a16dadb888c68a72.setContent(html_91fd71f72bf84cde99af7c39d87e5aef);
+        
+
+        circle_marker_1558e051ec0d43dba8b716b8dcc62a10.bindPopup(popup_8fdd19f047744d52a16dadb888c68a72)
+        ;
+
+        
+    
+    
+            var circle_marker_ed0599baa32349599d67535aed8fe4e6 = L.circleMarker(
+                [40.02813555, -75.3159205851816],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b73271b7a5304951a27d886a04ff3b99);
+        
+    
+        var popup_1b53346c6adb4714967bda41cf0dc046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a49030c799dd4bcb948606ea88222c20 = $(`<div id="html_a49030c799dd4bcb948606ea88222c20" style="width: 100.0%; height: 100.0%;">College: Bryn Mawr College, Tuition: $31900, Cluster: 0</div>`)[0];
+            popup_1b53346c6adb4714967bda41cf0dc046.setContent(html_a49030c799dd4bcb948606ea88222c20);
+        
+
+        circle_marker_ed0599baa32349599d67535aed8fe4e6.bindPopup(popup_1b53346c6adb4714967bda41cf0dc046)
+        ;
+
+        
+    
+</script>
